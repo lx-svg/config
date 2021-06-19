@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- hello world， 默认允许info -->
+<!--任务包含多个task-->
+<project name="Hello World Project" default="info">
+    <target name="info">
+        <echo>Hello World - Welcome to Apache Ant!</echo>
+    </target>
+</project>
